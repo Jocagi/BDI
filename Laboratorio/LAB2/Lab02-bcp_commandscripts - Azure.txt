@@ -1,0 +1,5 @@
+bcp Proveedor in SampleProveedorData.csv -S DAGC-PC -d L1_Empresa -T -q -c -t ","
+bcp Producto in SampleProductoData.csv -S DAGC-PC -d L1_Empresa -T -q -c -t ","
+bcp Cliente in SampleClienteData.csv -S DAGC-PC -d L1_Empresa -T -q -c -t ","
+bcp Compra in SampleCompraData.csv -S DAGC-PC -d L1_Empresa -T -q -c -t ","
+

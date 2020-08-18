@@ -1,0 +1,5 @@
+bcp Proveedor in SampleProveedorData.csv -S url-bd1-23538.database.windows.net -d L1_Empresa -U test -P SuperSecret! -q -c -t ","
+bcp Producto in SampleProductoData.csv -S url-bd1-23538.database.windows.net -d L1_Empresa -U test -P SuperSecret! -q -c -t ","
+bcp Cliente in SampleClienteData.csv -S url-bd1-23538.database.windows.net -d L1_Empresa -U test -P SuperSecret! -q -c -t ","
+bcp Compra in SampleCompraData.csv -S url-bd1-23538.database.windows.net -d L1_Empresa -U test -P SuperSecret! -q -c -t ","
+

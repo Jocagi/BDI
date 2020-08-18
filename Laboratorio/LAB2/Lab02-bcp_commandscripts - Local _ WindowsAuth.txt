@@ -1,0 +1,5 @@
+bcp Proveedor in SampleProveedorData.csv -S DESKTOP-0JK7I4P -d L1_Empresa -T -q -c -t ","
+bcp Producto in SampleProductoData.csv -S DESKTOP-0JK7I4P -d L1_Empresa -T -q -c -t ","
+bcp Cliente in SampleClienteData.csv -S DESKTOP-0JK7I4P -d L1_Empresa -T -q -c -t ","
+bcp Compra in SampleCompraData.csv -S DESKTOP-0JK7I4P -d L1_Empresa -T -q -c -t ","
+
